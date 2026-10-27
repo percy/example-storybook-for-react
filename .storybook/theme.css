@@ -1,0 +1,21 @@
+[data-theme='dark'] body {
+  background: #1d1d1f;
+  color: #e6e6e6;
+}
+
+[data-theme='dark'] .todoapp,
+[data-theme='dark'] .new-todo,
+[data-theme='dark'] .edit {
+  background: #2a2a2e;
+  color: #e6e6e6;
+}
+
+[data-theme='dark'] .todo-list li label,
+[data-theme='dark'] .footer {
+  color: #d0d0d0;
+}
+
+[data-theme='dark'] .todo-list li,
+[data-theme='dark'] .footer {
+  border-color: #3a3a3f;
+}

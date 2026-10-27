@@ -1,0 +1,7 @@
+version: 2
+storybook:
+  # Every story is also captured as "<story> [dark]"; the base (light) snapshot is kept.
+  modes:
+    - name: dark
+      globals:
+        theme: dark
