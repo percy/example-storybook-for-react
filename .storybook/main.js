@@ -2,7 +2,7 @@
 const config = {
   stories: ['../components/stories/*.stories.js'],
   framework: { name: '@storybook/react-webpack5', options: {} },
-  addons: ['@storybook/addon-webpack5-compiler-babel'],
+  addons: ['@storybook/addon-webpack5-compiler-babel', '@storybook/addon-a11y'],
   // The repo .babelrc targets Babel 6 (legacy app/tests); keep it out of the Storybook build.
   babel: async (options) => ({
     ...options,

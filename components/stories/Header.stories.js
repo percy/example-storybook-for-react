@@ -3,6 +3,7 @@ import Header from '../Header';
 
 export default {
   title: 'Header',
+  tags: ['visual-smoke'],
   render: () => (
     <div className="todoapp">
       <Header addTodo={fn()} />
